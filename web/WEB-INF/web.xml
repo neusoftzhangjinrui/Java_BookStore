@@ -4,19 +4,11 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name>RigistServlet</servlet-name>
-        <servlet-class>com.jinrui.web.RegistServlet</servlet-class>
+        <servlet-name>userServlet</servlet-name>
+        <servlet-class>com.jinrui.web.UserServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>RigistServlet</servlet-name>
-        <url-pattern>/rigistServlet</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.jinrui.web.LoginServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/loginServlet</url-pattern>
+        <servlet-name>userServlet</servlet-name>
+        <url-pattern>/userServlet</url-pattern>
     </servlet-mapping>
 </web-app>

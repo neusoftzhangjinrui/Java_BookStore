@@ -10,6 +10,8 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="druid-1.1.9" />
           <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="commons-beanutils-1.8.0" />
+          <element id="library" level="module" name="JUnit4" module-name="Java_web_book_store" />
         </element>
       </element>
     </root>
