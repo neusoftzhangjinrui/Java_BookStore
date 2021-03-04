@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="lib">
+  <library name="book_store_lib">
     <CLASSES>
       <root url="file://H:/java_install/tomcat/apache-tomcat-8.0.50-windows-x64/apache-tomcat-8.0.50/lib" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.0.jar!/" />
