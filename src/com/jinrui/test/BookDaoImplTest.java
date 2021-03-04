@@ -18,8 +18,7 @@ public class BookDaoImplTest {
 
     @Test
     public void addBook() {
-        bookDao.addBook(new Book(null, "国哥为什么这么帅！ ", "191125", new
-                BigDecimal(9999), 1100000, 0, null
+        bookDao.addBook(new Book(null, "国哥为什么这么帅！ ", "191125", new BigDecimal(9999), 1100000, 0, null
         ));
     }
 

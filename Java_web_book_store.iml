@@ -20,7 +20,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="druid-1.1.9" level="project" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="module-library">
       <library name="JUnit4">
@@ -32,7 +31,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="commons-beanutils-1.8.0" level="project" />
-    <orderEntry type="library" name="taglibs" level="project" />
   </component>
 </module>

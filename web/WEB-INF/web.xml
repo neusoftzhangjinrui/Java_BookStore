@@ -11,4 +11,12 @@
         <servlet-name>userServlet</servlet-name>
         <url-pattern>/userServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Bookservlet</servlet-name>
+        <servlet-class>com.jinrui.web.BookServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Bookservlet</servlet-name>
+        <url-pattern>/manager/bookServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
