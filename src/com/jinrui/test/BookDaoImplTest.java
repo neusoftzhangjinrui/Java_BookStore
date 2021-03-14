@@ -3,11 +3,11 @@ package com.jinrui.test;
 import com.jinrui.dao.BookDao;
 import com.jinrui.dao.impl.BookDaoImpl;
 import com.jinrui.pojo.Book;
+import com.jinrui.pojo.Page;
 import org.junit.Test;
 
 import java.math.BigDecimal;
 
-import static org.junit.Assert.*;
 
 /**
  * @author Jinrui Zhang
@@ -42,5 +42,17 @@ public class BookDaoImplTest {
     @Test
     public void updateBook() {
         bookDao.updateBook(new Book(21, "大家都可以这么帅！ ", "国哥", new BigDecimal(9999), 1100000, 0, null));
+    }
+
+    @Test
+    public void queryForTotalCount() {
+        System.out.println(bookDao.queryForTotalCount());
+    }
+
+    @Test
+    public void queryForPageItems() {
+        for (Book book : bookDao.queryForPageItems(8, Page.PAGE_SIZE)) {
+            System.out.println(book);
+        }
     }
 }

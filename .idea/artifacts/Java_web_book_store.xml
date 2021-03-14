@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="Java_web_book_store:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/Java_web_book_store_war_exploded</output-path>
+  <artifact type="exploded-war" name="Java_web_book_store">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_web_book_store</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="Java_web_book_store/web/Web" />
       <element id="directory" name="WEB-INF">

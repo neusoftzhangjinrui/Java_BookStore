@@ -1,6 +1,7 @@
 package com.jinrui.test;
 
 import com.jinrui.pojo.Book;
+import com.jinrui.pojo.Page;
 import com.jinrui.service.BookService;
 import com.jinrui.service.impl.BookServiceImpl;
 import org.junit.Test;
@@ -40,5 +41,9 @@ public class BookServiceImplTest {
         for (Book queryBook : bookService.queryBooks()) {
             System.out.println(queryBook);
         }
+    }
+    @Test
+    public void page(){
+        System.out.println(bookService.page(1, Page.PAGE_SIZE));
     }
 }
