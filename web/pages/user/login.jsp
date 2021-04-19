@@ -25,7 +25,7 @@
 					<div class="login_form">
 						<div class="login_box">
 							<div class="tit">
-								<h1>尚硅谷会员</h1>
+								<h1>登录书城会员账号</h1>
 								<a href="pages/user/regist.jsp">立即注册</a>
 							</div>
 							<div class="msg_cont">

@@ -1,5 +1,6 @@
 package com.jinrui.pojo;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -14,6 +15,17 @@ public class Page<T> {
     private Integer pageTotalCount;
     private List<T> items;
 
+
+    private String url;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
     @Override
     public String toString() {
         return "Page{" +
@@ -22,6 +34,7 @@ public class Page<T> {
                 ", pageSize=" + pageSize +
                 ", pageTotalCount=" + pageTotalCount +
                 ", items=" + items +
+                ", url='" + url + '\'' +
                 '}';
     }
 

@@ -32,4 +32,5 @@ UserService userService = new UserServiceImpl();
             System.out.println("用户名可用！");
         }
     }
+
 }
